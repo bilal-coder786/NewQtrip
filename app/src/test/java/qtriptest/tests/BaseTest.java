@@ -91,7 +91,7 @@ public class BaseTest {
         System.out.println("📁 Created archive base directory at: " + archiveBasePath);
     }
 
-    // ✅ Step 2: If test-output exists, copy and clean it
+    // Step 2: If test-output exists, copy and clean it
     if (sourceDir.exists()) {
         try {
             FileUtils.copyDirectory(sourceDir, destDir);
