@@ -31,7 +31,7 @@ public class ExtentManager {
             String reportPath = System.getProperty("user.dir") + "/test-output/ExtentReport.html";
 
             // Print path to console for debugging
-            System.out.println("📄 Extent Report will be generated at: " + reportPath);
+            System.out.println(" Extent Report will be generated at: " + reportPath);
 
             // Create reporter and attach to ExtentReports
             ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
