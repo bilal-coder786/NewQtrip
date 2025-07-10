@@ -96,7 +96,7 @@ public class BaseTest {
         try {
             FileUtils.copyDirectory(sourceDir, destDir);
             FileUtils.cleanDirectory(sourceDir);
-            System.out.println("✅ Old reports archived to: " + archivePath);
+            System.out.println(" Old reports archived to: " + archivePath);
         } catch (IOException e) {
             System.out.println("❌ Failed to archive reports: " + e.getMessage());
         }
