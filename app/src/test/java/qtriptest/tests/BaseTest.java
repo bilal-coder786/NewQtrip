@@ -71,7 +71,7 @@ public class BaseTest {
         extent.flush();
     }
 
-    // ✅ Archive old test-output folder instead of deleting
+    //  Archive old test-output folder instead of deleting
    public void archiveOldReports() {
     // 👇 Debug line to confirm base path
     System.out.println("Current project path: " + System.getProperty("user.dir"));
